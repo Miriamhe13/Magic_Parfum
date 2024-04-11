@@ -2,8 +2,9 @@ body{
     background-color: rgb(225, 224, 224);
 }
 
-nav{
+nav {
     height: 80px;
+    width: auto;
 }
 
 .listado{
