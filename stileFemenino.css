@@ -51,9 +51,19 @@ footer {
 }
 
 .carousel img {
-  width: 100%;
-  height: auto; 
-  display: block; 
-  max-height: 700px;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 700px;
 
+}
+
+/*aun decidire si usarlo*/
+
+.btn-comprar {
+    display: none;
+}
+
+.card:hover .btn-comprar {
+    display: inline-block;
 }
