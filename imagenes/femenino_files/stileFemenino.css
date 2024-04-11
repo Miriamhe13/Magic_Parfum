@@ -58,20 +58,12 @@ footer {
 
 }
 
+/*aun decidire si usarlo*/
 
-
-.carousel-inner .carousel-item {
-    transition-duration: 2s; 
+.btn-comprar {
+    display: none;
 }
 
-.btn-alargado {
-    width: 150px; /* Ajusta el ancho según sea necesario */
-    height: 60px; /* Ajusta la altura según sea necesario */
-    border: 2px solid #dc3545; /* Define el grosor y el color del borde */
-    border-radius: 2px; /* Opcional: para agregar esquinas redondeadas */
-    /* Puedes ajustar otros estilos según tus preferencias */
+.card:hover .btn-comprar {
+    display: inline-block;
 }
-
-    
-   
-
