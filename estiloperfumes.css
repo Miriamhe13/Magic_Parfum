@@ -1,13 +1,11 @@
 body {
-    background-color: rgb(225, 225, 224);
+    background-color: white;
 }
-
 
 nav {
     height: 80px;
     width: auto;
 }
-
 
 
 .listado {
@@ -25,6 +23,7 @@ nav {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
+    
 }
 
 .container {
