@@ -23,7 +23,7 @@ nav {
     font-size: 90px;
     font-weight: bold;
     margin-bottom: 10px;
-    
+
 }
 
 
@@ -38,7 +38,7 @@ nav {
 
 footer {
     width: 100%;
-    
+
     color: white;
 }
 
@@ -61,22 +61,24 @@ footer {
 
 
 .carousel-inner .carousel-item {
-    transition-duration: 2s; 
+    transition-duration: 2s;
 }
 
 .btn-alargado {
-    width: 150px; 
-    height: 60px; 
-    border: 2px solid #dc3545; 
-    border-radius: 2px; 
-    
+    width: 150px;
+    height: 60px;
+    border: 2px solid #dc3545;
+    border-radius: 2px;
+
 }
 
-.espacio {
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .espacio {
     width: 20px;
     height: 50px; 
     display: inline-block; 
-}
-
-   
-
+} */
