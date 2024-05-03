@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding:0;
     margin:0;
 }
 
@@ -11,7 +11,26 @@ nav {
     height: 80px;
     width: auto;
 }
-
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px 10%;
+    justify-content: space-evenly;
+    row-gap: 3vh;
+    border-radius: 5px;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 20%;
+    height: 50vh;
+    outline: 1px #cdcdcd dashed;
+    border-radius: 5px;
+    box-sizing: content-box;
+    padding: 10px;
+}
 
 .listado {
     display: block;
@@ -19,7 +38,7 @@ nav {
     margin-bottom: 40px;
 }
 
-.listado .card {
+.listado .producto {
     display: inline-block;
     margin-left: 6px;
 }
@@ -30,8 +49,27 @@ nav {
     margin-bottom: 10px;
 
 }
+.boton {
+    width: 150px;
+    border-radius: 2px;
+    align-items: center;
+    align-self: center;
+}
 
+.boton{
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px 3px;
+    background-color: transparent;
+    color: #bd2424;
+    border:solid 1px #bd2424;
+}
 
+.boton:hover{
+    background-color: #bd2424;
+    color: #ffffff;
+    transition: all .3s linear;
+}
 
 .container {
     margin-top: 25px;
