@@ -183,3 +183,63 @@ a {
 
 
 
+/*generador de usuario/*
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la imagen */
+  #foto {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Estilos para el nombre */
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para los datos */
+  .datos {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .datos p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Estilos para el botón */
+  .boton {
+    margin-top: 30px;
+  }
+  
+  #boton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #boton:hover {
+    background-color: #3e8e41;
+  }
