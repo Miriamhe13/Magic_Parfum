@@ -3,6 +3,7 @@ let items = [
       "nombre": "perfume",
       "precio": 25000,
       "imagen": "https://silkperfumes.cl/cdn/shop/files/800x400.jpg?v=1705497406&width=800"
+      
     },
     {
       "nombre": "perfume",
@@ -75,6 +76,10 @@ let items = [
         precio.classList.add("precio");
         precio.innerHTML = "$"+item.precio + " (USD "+ (item.precio/dolar).toFixed(1) +")";
         producto.appendChild(precio);
+        let boton = document.createElement("button");
+        boton.classList.add("boton");
+        boton.innerHTML = "Comprar";
+        producto.appendChild(boton);
         productos.appendChild(producto);
       }
     }).catch(function(error) {

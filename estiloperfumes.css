@@ -154,10 +154,10 @@ a {
 .nombre{
     font-size: 1.1rem;
     color: rgb(20, 114, 186);
-    text-align: center;
     height: 10vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .precio{
@@ -167,4 +167,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boton{
+
 }
