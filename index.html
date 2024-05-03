@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="estiloperfumes.css">
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/68bf12c93d.js" crossorigin="anonymous"></script>
+  <script src="generadorUser.js"></script>
 </head>
 
 <body>
@@ -89,18 +90,7 @@
       <img src="imagenes/FAMILIA.png" class="card-img-bottom" alt="...">
     </div>
 
-
-
-
-
-
-
-
-
-
     <div class="listado">
-
-
 
       <div class="card" style="max-width: 300px;">
         <img style="aspect-ratio: 1;" src="imagenes/15.webp" class="card-img-top" alt="...">
@@ -147,6 +137,24 @@
         </div>
       </div>
     </div>
+
+    <!--generador de usuario-->
+
+    <div class="contenedor">
+      <img id="foto" src="" alt="imagen">
+      <h2>Hola mi nombre: <span id="nombre"></span></h2>
+      <div class="datos">
+        <p>Correo: <span id="correo"></span></p>
+        <p>Celular: <span id="telefono"></span></p>
+      </div>
+    </div>
+    
+    <div class="boton">
+      <button id="boton" onclick="generateUser()">SIGUIENTE</button>
+    </div>
+
+
+
 
     <!--fin listado tienda-->
 
