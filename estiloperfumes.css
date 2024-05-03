@@ -170,5 +170,10 @@ a {
 }
 
 .boton{
-
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px 3px;
+    background-color: transparent;
+    color: #bd2424;
+    border:solid 1px #bd2424;
 }
