@@ -10,6 +10,13 @@
                     alert('Por favor complete todos los campos.');
                     return false;
                 }
+
+                    // Validar el formato del correo electrónico
+                    var nombreRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(nombre)) {
+                        alert('ingrese un nombre valido');
+                        return false;
+                    }
         
                 // Validar el formato del correo electrónico
                 var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -24,6 +31,19 @@
                     alert('Por favor ingrese un número de teléfono válido (9 dígitos).');
                     return false;
                 }
+                
+                var asuntoRegex = /^[2000]{2000}$/;
+                if (!asuntoRegex.test(asunto)) {
+                    alert('ingrese al menos 2000 caracteres');
+                    return false;
+                }
+
+                var mensajeRegex = /^[100]{100}$/;
+                if (!mensajeRegex.test(mensaje)) {
+                    alert('Por favor ingrese un número de teléfono válido (9 dígitos).');
+                    return false;
+                }
+                
         
                 // Si todas las validaciones pasan, el formulario se puede enviar
                 return true;
