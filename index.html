@@ -12,6 +12,7 @@
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/68bf12c93d.js" crossorigin="anonymous"></script>
   <script src="generadorUser.js"></script>
+  <script src="validacionForm.js"></script>
 </head>
 
 <body>
@@ -173,31 +174,36 @@
 
           <div class="container my-5">
 
-            <form>
+            <!-- <form onsubmit="return validarFormulario()"> -->
+              <!-- Tus campos de formulario -->
+              <!-- <button type="submit" class="btn btn-primary">Enviar</button> -->
+          <!-- </form> -->
+
+            <form onsubmit="return validarFormulario()">
               <h2 class="text-center mb-4">Contáctanos</h2>
               <form>
                 <div class="mb-3">
                   <label for="name" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="name" required>
+                  <input type="text" class="form-control" id="name">
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Correo electronico</label>
-                  <input type="email" class="form-control" id="email" required>
+                  <input type="email" class="form-control" id="email">
                 </div>
                 <div class="mb-3">
                   <label for="phone" class="form-label">Número de teléfono</label>
                   <input type="text" class="form-control" id="tel" pattern="[0-9]{9}" title="Debe contener 9 números"
-                    required>
+                    >
                 </div>
 
 
                 <div class="mb-3">
                   <label for="subject" class="form-label">Asunto</label>
-                  <input type="text" class="form-control" id="asunto" minlength="5" required>
+                  <input type="text" class="form-control" id="asunto" minlength="5">
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label">Mensaje</label>
-                  <textarea class="form-control" id="message" rows="3" required></textarea>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
               </form>
@@ -232,4 +238,4 @@
 
 </html>
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?146B182E574F9ADEB616ACE87030C779
+<!-- https://prod.liveshare.vsengsaas.visualstudio.com/join?146B182E574F9ADEB616ACE87030C779 -->
