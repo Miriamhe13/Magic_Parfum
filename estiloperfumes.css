@@ -170,7 +170,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -188,7 +188,7 @@ a {
     background-color: transparent;
     color: #bd2424;
     border:solid 1px #bd2424;
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     padding: 10px 20px;
     text-align: center;
